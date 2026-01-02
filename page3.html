@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body class="page3">
+    <div class="block">
+        <div class="container bounce-in">
+        <h1>BIT CONVERTER</h1>
+        <br>
+    </div>
+    <label>
+        Enter a Value:
+    </label><br/>
+    <input type="text"id="input"/><br/><br/>
+    <label>Choose Conversion:</label><br/>
+    <select id="option">
+        <option value="charToAscii">Character To ASCII</option>
+        <option value="asciiToChar">ASCII To Character</option>
+        <option value="decToBin">Decimal To Binary</option>
+        <option value="binToDec">Binary To Decimal</option>
+        <option value="octToDec">Octal To Decimal</option>
+        <option value="decToOct">Decimal To Octal</option>
+        <option value="hexToDec">Hexadecimal To Decimal</option>
+        <option value="decToHex">Decimal To Hexadecimal</option>
+    </select><br/><br/>
+    <button onclick="convert()">CONVERT</button>
+    <p id="output"></p>
+    </div>
+</body>
+</html>
